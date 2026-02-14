@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Store</title>
+
+<style>
+/* Reset */
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+html,body{
+  width:100%;
+  overflow-x:hidden;
+  background:#ffffff;
+}
+
+/* Responsive Wrapper */
+.store-wrapper{
+  width:100%;
+  max-width:1200px;      /* prevents overstretching on large screens */
+  margin:0 auto;         /* center on desktop */
+  padding:10px;
+}
+
+/* Make POWR container fully responsive */
+.powr-ecommerce{
+  width:100% !important;
+}
+
+/* Improve spacing on larger screens */
+@media (min-width:768px){
+  .store-wrapper{
+    padding:20px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="store-wrapper">
+  <div class="powr-ecommerce" id="ff92910a_1749244222"></div>
+</div>
+
+<script src="https://www.powr.io/powr.js?platform=html"></script>
+
+</body>
+</html>
